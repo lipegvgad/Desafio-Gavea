@@ -51,6 +51,9 @@ def adicionar():
   
       
       if ticker in carteira:
+          qtdAnt = carteira[ticker]['quantidade']
+          precoAnt = carteira[ticker]['precoCompra']
+          precoCompra = (precoAnt * qtdAnt + precoCompra * quantidade) / (qtdAnt + quantidade)
           carteira[ticker]['quantidade'] += quantidade
           carteira[ticker]['precoCompra'] = precoCompra
       else:
@@ -87,3 +90,4 @@ if __name__ == '__main__':
     if not os.path.exists('carteira.json'):
         atualizaCarteira({})
     app.run(host='0.0.0.0', port=8080)
+
