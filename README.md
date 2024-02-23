@@ -2,7 +2,7 @@ Fiz o meu projeto em python usando o Flask, com o intuito de deixa-lo funcional 
 
 Comecei criando funcoes para criar a carteira e atualiza-la apos ter iniciado o Flask. Depois disso, criei a funcao achaPrecoatual() usando a API do yahoo finance, como recomendado para guardar os valores das acoes de maneira atualizada. Usei um header ja que por algum motivo as informacoes nao estavam sendo coletadas, mas o header resolveu.
 
-Para as paginas, criei a principal a pagina principal com os botoes de adicionar, que leva para a pagina /adicionar que coloca a acao na carteira e redireciona para a pagina principal e o botao de lucro e prejuizo que redireciona para a pagina /lucroprejuizo onde podera ver essas informacoes.
+Para as paginas, criei a pagina principal com o botao de adicionar, que leva para a pagina /adicionar que coloca a acao na carteira e redireciona para a pagina principal e o botao de lucro e prejuizo que redireciona para a pagina /lucroprejuizo onde podera ver essas informacoes.
 
 A persistencia foi feita utilizando um arquivo json, onde aparecem as novas acoes quando adicionadas e para apaga-las basta deletar o arquivo que outro sera criado, ou apagar o conteudo do arquivo.
 
