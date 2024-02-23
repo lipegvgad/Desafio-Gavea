@@ -6,4 +6,6 @@ Para as paginas, criei a pagina principal com o botao de adicionar, que leva par
 
 A persistencia foi feita utilizando um arquivo json, onde aparecem as novas acoes quando adicionadas e para apaga-las basta deletar o arquivo que outro sera criado, ou apagar o conteudo do arquivo.
 
-E possivel roda-lo normalmente na IDE de escolha, colocando o endereco dado no console no browser para vizualizar o aplicativo, ou ate mesmo em uma IDE online, como o replit, onde o webview aparece direto (testei no replit usando no final app.run(host='0.0.0.0',port=8080). E necessario ter uma pasta chamada templates no mesmo diretorio do arquivo.py. 
+E possivel roda-lo normalmente na IDE de escolha, colocando o endereco dado no console no browser para vizualizar o aplicativo, ou ate mesmo em uma IDE online, como o replit, onde o webview aparece direto (testei no replit usando no final app.run(host='0.0.0.0',port=8080). 
+
+E necessario ter uma pasta chamada templates com os dois arquivos html no mesmo diretorio do arquivo.py. 
